@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Canvas</title>
+</head>
+<body onload="draw();">
+	<div class="options">
+		<label>color</label>
+		<input type="color" class="color-input" value="#ffffff"> <br>
+		<lable>pen/eraser</lable> 
+		<select class="pen-eraser">
+			<option value="pen">pen</option>
+			<option value="eraser" >eraser</option>
+		</select> <br>
+		<label>size</label>
+		<input type="input" class="stroke-width" value="20">
+		<label class="stroke-width-val"></label> <br>
+		<label>linecap</label>
+		<select class="cap-changer">
+			<option value="round">round</option>
+			<option value="butt">butt</option>
+			<option value="square">square</option>
+		</select> <br>
+		<button class="clear-canvas">Clear Canvas</button>
+	</div>
+    <canvas id="canv" oncontextmenu="return false"></canvas>
+    <script src="index.js"></script>
+</body>
+</html>

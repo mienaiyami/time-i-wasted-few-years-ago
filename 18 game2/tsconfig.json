@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        // "module": "commonjs",
+        "watch": true,
+        "lib": ["DOM", "ESNext"]
+    }
+}

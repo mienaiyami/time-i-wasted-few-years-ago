@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+canvas {
+    /* border: 1px solid #d3d3d3; */
+    background: #4a2a3f;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.infoP {
+    size: 10px;
+    position: relative;
+    top: 20px;
+    width: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}

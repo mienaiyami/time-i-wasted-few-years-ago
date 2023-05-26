@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+canvas{
+    border: 1px solid #d3d3d3;
+    background: #f1f1f1;
+    position: relative;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.infoP{
+    size: 10px;
+
+}
